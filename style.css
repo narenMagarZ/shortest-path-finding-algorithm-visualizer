@@ -1,0 +1,49 @@
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+}
+div{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e4e4e4;
+    height: 100%;
+}
+
+.sub-container{
+    background: #000;
+    height: 200px;
+    width: 200px;
+    color: white;
+}
+
+
+.grid-container{
+    display: flex;
+    flex-direction: column;
+}
+.cell{
+    border:1px solid rgb(41, 41, 41);
+    height: 10px;
+    width: 10px;
+    background-color:#ffffff;
+}
+
+.shortest-path-cell{
+    background-color: #000;
+}
+.grid-row{
+    display: flex;
+}
