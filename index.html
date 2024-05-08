@@ -9,6 +9,36 @@
 </head>
 <body>
     <div class="container">
+        <div style="margin:10px;display: flex; gap: 10px;">
+            <div 
+            style="display: flex;gap: 4px;"
+            class="">
+                <div>
+                    <input
+                    checked
+                    id="dijkstra"
+                    type="radio" />
+                    <label>Dijkstra's</label>
+                </div>
+                <div>
+                    <input 
+                    id="a*"
+                    type="radio" />
+                    <label>A* search</label>
+                </div>
+            </div>
+            <div>
+                <button
+                id="visualize-btn"
+                type="button"
+                style="cursor: pointer;">
+                    Visualize Dijkstra's
+                </button>
+                <button 
+                id="reset-btn"
+                style="cursor: pointer;">Reset</button>
+            </div>
+        </div>
         <div id="grid" class="grid-container">
         </div>
     </div>
