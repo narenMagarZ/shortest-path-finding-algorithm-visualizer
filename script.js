@@ -135,8 +135,6 @@ function dijkstra(grid){
         }
     }
     distances[startCellX[0]][startCellX[1]] = 0
-    print(startCellX)
-    print(distances[startCellX[0]][startCellX[1]])
     const visited = new Set()
     timer = 100
     while(true){
@@ -160,7 +158,6 @@ function dijkstra(grid){
         visited.add(minCell)
         setTimeout(()=>{
             if(minCell!==startCell)
-                // minCell.elem.style.background='#ff0000'
                 minCell.elem.classList.toggle('visited')
         },timer)
         const row = minCell.i
